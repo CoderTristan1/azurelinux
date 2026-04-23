@@ -12,7 +12,7 @@ Summary:        Signed HvLoader.efi for %{buildarch} systems
 Name:           edk2-hvloader-signed-%{buildarch}
 Version:        %{GITDATE}git%{GITCOMMIT}
 Release:        15%{?dist}
-License:        MIT
+License:        MIT //tesyt
 Vendor:         Microsoft Corporation
 Distribution:   Azure Linux
 URL:            https://github.com/microsoft/HvLoader
