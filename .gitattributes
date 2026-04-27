@@ -5,3 +5,8 @@ toolkit/docs/** linguist-documentation
 LICENSES-AND-NOTICES/** linguist-documentation
 LICENSES-AND-NOTICES/SPECS/** linguist-documentation
 LICENSES-AND-NOTICES/SPECS/LICENSES-MAP.md linguist-generated
+# Squad: union merge for append-only team state files
+.squad/decisions.md merge=union
+.squad/agents/*/history.md merge=union
+.squad/log/** merge=union
+.squad/orchestration-log/** merge=union
